@@ -1,1 +1,1 @@
-# Zentachain-upgrade-contract
+# Zentachain Upgrade Contract
