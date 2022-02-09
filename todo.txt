@@ -1,3 +1,32 @@
 Todo
 
-_------
+1. Upgradeable Contract
+2. Proxy
+3. Admin(owner)
+4. Staking (10%APY)/Able to Change the rewards only by Admin -
+5. Minimum Stake Amount (Example: 4000)
+6. Epoche duration time of Staking 1 Moth Locked
+
+Wallet Staking Part(OnlyForAdmin Zentanode):
+1. Add Ethwallet (Only Admin)
+2. Rewards for added Wallet (20%APY)
+3. Remove wallet(Only Admin)
+4. Change reward for Wallet address
+5. Wallet reward epoche session 1 Moth
+6. Add minter only for Zentanode
+Info: There is no lock. It should be controlled by the admin.
+
+Frontend ReactJS:
+1. Should be coded in ReactJs Typescript.
+2. Staking Dashboard
+3. Stake & Unstake.
+4. Calculator for staking.
+5. Display how many tokens are staked.
+Info: Maybe add it to Zentanode Explorer Connect also Wallet like the Zentanode connection?
+
+Info Security
+1. Using MultiSig wallet(Admin)
+2. Don't use "constructor()" use function (Example:https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/v3.3.0/contracts/token/ERC20/ERC20Upgradeable.sol)
+
+
+// Not sure we should only reward users who support the Zentameshnet(Zentanode Wallets) = Maybe remove Staking 10%APY until to main-net. (There is no sense as an ERC20/I don't like it Harun)(SupplyCirculation - )
